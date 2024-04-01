@@ -11,7 +11,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/home", (req, res) => {
-    res.sendFile(__dirname + "public/home.html");
+    res.sendFile(__dirname + "public/home/home.html");
 });
 
 app.get("/features",(req, res) => {
