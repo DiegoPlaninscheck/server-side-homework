@@ -1,5 +1,5 @@
 body{
-    margin: 20px;
+    margin: 0;
     font-family: Montserrat, sans-serif;
 }
 
@@ -10,13 +10,26 @@ body{
 }
 
 .container{
-    max-width: 100%;
-    margin: 0;
+    max-width: 100%; 
+    margin: 0 auto; 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .Titulo{
-    margin: 20;
+    margin: 20px;
+}
+
+.home{
+    text-align: center;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 20%;
+    background-color: #8EA4D2;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }
