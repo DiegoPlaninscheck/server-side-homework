@@ -26,10 +26,10 @@
     align-items: center;
 }
 
-#title {
+#titleNavbar {
     width: 20%;
     color: #fff;
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 #containerItens {
@@ -66,24 +66,32 @@
     margin-top: 0.5rem;
 }
 
-.tituloSite{
-    background-color: #8ea4d2;
-    width: 550px;
-    height: 100px;
+#containerContent {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titleContent {
+    width: 30%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 35px auto;
-    padding: 0 15px;
-    border-radius: 22px;
+    background-color: #8ea4d2;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1.5rem;
 }
 
-.contentBox{
-    background-color: #6396fd;
-    width: 800px;
+.contentBox {
+    width: 50%;
     height: auto;
-    display: flex;
-    margin: 25px auto;
-    padding: 15px 15px;
-    border-radius:  22px;
+    max-height: 90%;
+    background-color: #ECECEC;
+    border-radius: 5px;
+    margin-top: 2rem;
 }
