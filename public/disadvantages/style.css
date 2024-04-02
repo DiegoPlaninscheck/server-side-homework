@@ -65,3 +65,25 @@
 .item span {
     margin-top: 0.5rem;
 }
+
+.tituloSite{
+    background-color: #8ea4d2;
+    width: 550px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    padding: 0 15px;
+    border-radius: 22px;
+}
+
+.contentBox{
+    background-color: #6396fd;
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 25px auto;
+    padding: 15px 15px;
+    border-radius:  22px;
+}
