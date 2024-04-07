@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+#contentPage {
+    width: 100%;
+    height: 100vh;
+}
+
+#navBar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    background-color: #6279b8;
+}
+
+.itens {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titleNavbar {
+    width: 20%;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+#containerItens {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+}
+
+.item img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.item span {
+    margin-top: 0.5rem;
+}
+
+#containerContent {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titleContent {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ea4d2;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+.contentBox {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    max-height: 90%;
+    background-color: #ECECEC;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.containerInput {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerInput label {
+    margin-right: 1rem;
+}
+
+.containerInput button {
+    width: 15%;
+    height: 20%;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #8ea4d2;
+}
+
+#firstNumber {
+    width: 20%;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#secondNumber {
+    width: 20%;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#operator {
+    width: auto;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}

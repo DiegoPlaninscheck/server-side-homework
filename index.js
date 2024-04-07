@@ -17,19 +17,23 @@ app.get("/home", (req, res) => {
 
 app.get("/features", (req, res) => {
     res.sendFile(__dirname + "public/features/features.html");
-})
+});
 
 app.get("/advantages", (req, res) => {
     res.sendFile(__dirname + "public/advantages/advantages.html");
-})
+});
 
 app.get("/disadvantages", (req, res) => {
     res.sendFile(__dirname + "public/disadvantages/disadvantages.html");
-})
+});
 
 app.get("/imc", (req, res) => {
     res.sendFile(__dirname + "public/IMC/imc.html");
-})
+});
+
+app.get("/calculator", (req, res) => {
+    res.sendFile(__dirname + "public/Calculator/calculator.html");
+});
 
 app.post("/calculate-IMC", (req, res) => {
     let body = req.body;
@@ -40,7 +44,19 @@ app.post("/calculate-IMC", (req, res) => {
     const result = (weight / ((height * height) / 100)) * 100;
 
     res.json(result.toFixed(2));
-})
+});
+
+app.post("/calculator", (req, res) => {
+    let body = req.body;
+
+    let firstNumber = body.firstNumber;
+    let secondNumber = body.secondNumber;
+    let operator = body.operator;
+
+    const result = eval(firstNumber + operator + secondNumber);
+
+    res.json(result);
+});
 
 
 app.listen(port, () => console.log(`Server started on port ${port}`));

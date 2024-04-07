@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="index.js"></script>
 </head>
@@ -49,18 +49,27 @@
             </div>
         </div>
         <div id="containerContent">
-            <h1 id="titleContent">Calculo IMC</h1>
+            <h1 id="titleContent">Calculator</h1>
             <div class="contentBox">
                 <div class="containerInput">
-                    <label for="weight">Weight</label>
-                    <input type="text" name="weight" id="weight">
+                    <label for="firstNumber">First Number</label>
+                    <input type="text" name="firstNumber" id="firstNumber">
                 </div>
                 <div class="containerInput">
-                    <label for="height">Height</label>
-                    <input type="text" name="height" id="height">
+                    <label for="secondNumber">Second Number</label>
+                    <input type="text" name="secondNumber" id="secondNumber">
                 </div>
                 <div class="containerInput">
-                    <button onclick="calculateIMC()">Calculate IMC</button>
+                    <label for="operator">Operator</label>
+                    <select name="operator" id="operator">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                </div>
+                <div class="containerInput">
+                    <button onclick="calculate()">Calculate</button>
                 </div>
             </div>
         </div>
