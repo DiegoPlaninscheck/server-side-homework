@@ -26,4 +26,9 @@ app.get("/disadvantages",(req, res) => {
     res.sendFile(__dirname + "public/disadvantages/disadvantages.html");
 })
 
+app.get("/calc_imc",(req, res) =>{
+    res.sendFile(__dirname + "public/IMC/imc.html");
+})
+
+
 app.listen(port, () => console.log(`Server started on port ${port}`));
