@@ -89,9 +89,51 @@
 
 .contentBox {
     width: 50%;
-    height: auto;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     max-height: 90%;
     background-color: #ECECEC;
     border-radius: 5px;
     margin-top: 2rem;
+}
+
+.containerInput {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerInput label {
+    margin-right: 1rem;
+}
+
+.containerInput button {
+    width: 15%;
+    height: 20%;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #8ea4d2;
+}
+
+#weight {
+    width: 20%;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#height {
+    width: 20%;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 }

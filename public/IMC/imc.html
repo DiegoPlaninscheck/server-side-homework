@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="imc.js"></script>
 </head>
 
 <body>
@@ -48,9 +49,19 @@
             </div>
         </div>
         <div id="containerContent">
-            <h1 id="titleContent">Desvantagens</h1>
+            <h1 id="titleContent">Calculo IMC</h1>
             <div class="contentBox">
-                <p>Conteudo dahora tamo junto</p>
+                <div class="containerInput">
+                    <label for="weight">Weight</label>
+                    <input type="text" name="weight" id="weight">
+                </div>
+                <div class="containerInput">
+                    <label for="height">Height</label>
+                    <input type="text" name="height" id="height">
+                </div>
+                <div class="containerInput">
+                    <button onclick="calculateIMC()">Calculate IMC</button>
+                </div>
             </div>
         </div>
     </div>
