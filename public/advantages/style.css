@@ -87,11 +87,27 @@
     margin-top: 1.5rem;
 }
 
-.contentBox {
+.contentBox  {
     width: 50%;
     height: auto;
     max-height: 90%;
-    background-color: #ECECEC;
+    background-color: #8ea4d2;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.contentBox ol li{
+    width: 50%;
+    height: auto;
+    max-height: 90%;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.contentBox ol{
+    width: 50%;
+    height: auto;
+    max-height: 90%;
     border-radius: 5px;
     margin-top: 2rem;
 }
