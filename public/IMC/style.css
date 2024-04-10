@@ -113,8 +113,10 @@
 }
 
 .containerInput button {
-    width: 15%;
-    height: 20%;
+    min-width: 15%;
+    width: 20%;
+    min-height: 20%;
+    height: 30%;
     color: #fff;
     cursor: pointer;
     border: none;
